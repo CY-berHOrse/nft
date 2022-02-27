@@ -1,0 +1,101 @@
+
+
+.App {
+  text-align: center;
+  color : white
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+hgroup {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/* button {
+  background-color:#61dafb;
+  color:white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin:10px;
+} */
+.btn1{
+  background-color:#e961fb;
+  color:white;
+  padding: 10px 30px 10px 30px;
+  margin:10px;
+  font-size: 16px;
+  font-weight:600px;
+}
+.btn{
+  background-color:#ffffff;
+  color:rgb(0, 0, 0);
+  padding: 10px 30px 10px 30px;
+  margin:10px;
+  font-size:16px;
+}
+
+.img{
+  height: 40%;
+  width: 40%;
+  margin: 20px 0px 20px 0px;
+}
+
+.brd {
+  border-style:dashed;
+  border-width: 2px;
+  border-color:white;
+  padding:20px;
+  border-radius: 40px;
+  background-color: black;
+}
+
+.brd::after {
+  content:'';
+  background: url('https://i.imgur.com/TVWaPrQ.jpeg');
+  opacity: 0.08;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  position:absolute;
+  z-index:-1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #e961fb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
